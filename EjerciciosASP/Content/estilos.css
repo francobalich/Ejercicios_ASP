@@ -1,0 +1,60 @@
+﻿*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+form {
+    margin: 50px;
+}
+p>.superindice{
+    vertical-align: super;
+}
+.texto{
+    margin-top:10px;
+    display:inline-block;
+}
+.alerta{
+    margin-top:5px !important;
+    color:red;
+    font-weight:bold;
+    position:relative;
+}
+.alerta-regex{
+    left:-185px;
+}
+.alerta::before{
+    content:"*";
+}
+.contenedor{
+    margin:50px;
+}
+.enunciado{
+    font-size:20px;
+}
+.ecuacion{
+    display: inline-block;
+    padding:5px;
+    border:1px solid #808080;
+}
+.card-title{
+    font-size:25px;
+    font-weight:bold;
+}
+.card-text{
+    font-size:20px;
+}
+.subrayado {
+    text-decoration: underline;
+}
+.integrantes{
+    margin-top:50px;
+}
+.integrantes strong{
+    font-size:25px;
+}
+.integrantes ul{
+    margin-left:40px;
+}
+.integrantes li{
+    font-size:20px;
+}
