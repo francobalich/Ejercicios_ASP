@@ -1,4 +1,5 @@
-﻿<%@ Page Title="Cálculo de esfuerzo" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AveriguarValorK.aspx.cs" Inherits="EjerciciosASP.AveriguarValorK" %>
+﻿<%@ Page Title="Cálculo de esfuerzo" Language="C#" MasterPageFile="~/Site.Master" 
+    AutoEventWireup="true" CodeBehind="AveriguarValorK.aspx.cs" Inherits="EjerciciosASP.AveriguarValorK" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <form id="form1" runat="server">
@@ -12,51 +13,37 @@
         <asp:TextBox id="txtL"  runat="server" AutoComplete="off"></asp:TextBox>
         <br />
         <asp:RequiredFieldValidator
-            class="alerta"
-            controltovalidate="txtL" 
-            text="Este campo debe llenarse" 
-            runat="server">
+            class="alerta" controltovalidate="txtL" 
+            text="Este campo debe llenarse" runat="server">
         </asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator
-            class="alerta alerta-regex"
-            controltovalidate="txtL"
-            text="El valor debe ser numerico"
-            validationexpression="^\d+"
-            runat="server" />
-
+            class="alerta alerta-regex" controltovalidate="txtL" runat="server" 
+            text="El valor debe ser numerico" validationexpression="^\d+" />
         <br />
         <p class="texto"><strong>Ck</strong>(Constante tecnológico):</p>
         <asp:TextBox AutoComplete="off" id="txtCk"  runat="server"></asp:TextBox>
         <br />
         <asp:RequiredFieldValidator
-            class="alerta" 
-            controltovalidate="txtCk" 
-            text="Este campo debe llenarse" 
-            runat="server">
+            class="alerta" controltovalidate="txtCk"
+            text="Este campo debe llenarse" runat="server">
         </asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator
-            class="alerta alerta-regex"
-            controltovalidate="txtCk"
-            text="El valor debe ser numerico"
-            validationexpression="^\d+"
-            runat="server" />
+            class="alerta alerta-regex" controltovalidate="txtCk" text="El valor debe ser numerico"
+            validationexpression="^\d+" runat="server" />
         <br />
 
         <p class="texto"><strong>Td</strong>(Tiempo de desarollo):</p>
         <asp:TextBox AutoComplete="off" id="txtTd"  runat="server"></asp:TextBox>
+        
         <br />
+
         <asp:RequiredFieldValidator
-            class="alerta"
-            controltovalidate="txtTd" 
-            text="Este campo debe llenarse" 
-            runat="server">
+            class="alerta" controltovalidate="txtTd" runat="server"
+            text="Este campo debe llenarse" >
         </asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator
-            class="alerta alerta-regex"
-            controltovalidate="txtTd"
-            text="El valor debe ser numerico"
-            validationexpression="^\d+"
-            runat="server" />
+            class="alerta alerta-regex" controltovalidate="txtTd" runat="server" 
+            text="El valor debe ser numerico"validationexpression="^\d+"/>
         <br />
        <asp:Button  class="btn btn-primary" type="submit" text="Calcular" OnClick="OnClick" runat="server"/>
     </form>

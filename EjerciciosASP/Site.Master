@@ -32,7 +32,8 @@
                 <ul class="nav navbar-nav">
                     <li><asp:HyperLink NavigateUrl="Default.aspx" runat="server">Inicio</asp:HyperLink></li>
                     <li><asp:HyperLink NavigateUrl="AResolver.aspx" runat="server">Geometría</asp:HyperLink></li>
-                    <li><asp:HyperLink NavigateUrl="AveriguarValorK.aspx" runat="server">Cálculo de esfuerzo</asp:HyperLink></li>
+                    <li><asp:HyperLink NavigateUrl="AveriguarValorK.aspx" runat="server">Cálculo de esfuerzo
+                        </asp:HyperLink></li>
                 </ul>
             </div>
         </div>

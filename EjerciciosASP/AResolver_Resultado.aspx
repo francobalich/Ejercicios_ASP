@@ -1,4 +1,5 @@
-﻿<%@ Page Title="Geometría" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AResolver_Resultado.aspx.cs" Inherits="EjerciciosASP.AResolver_Resultado" %>
+﻿<%@ Page Title="Geometría" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" 
+    CodeBehind="AResolver_Resultado.aspx.cs" Inherits="EjerciciosASP.AResolver_Resultado" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <form id="form1" runat="server">

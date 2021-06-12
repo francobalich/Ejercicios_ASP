@@ -1,4 +1,5 @@
-﻿<%@ Page Title="Cálculo de esfuerzo" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AveriguarValorK_Resultado.aspx.cs" Inherits="EjerciciosASP.AveriguarValorK_Resultado" %>
+﻿<%@ Page Title="Cálculo de esfuerzo" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" 
+    CodeBehind="AveriguarValorK_Resultado.aspx.cs" Inherits="EjerciciosASP.AveriguarValorK_Resultado" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
      <form id="form1" runat="server">
